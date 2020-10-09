@@ -4,7 +4,7 @@ import time
 link = "http://suninjuly.github.io/registration1.html"
 try:
     browser = webdriver.Chrome(
-        executable_path='C:/Users/nuriya.antropova/Downloads/chromedriver_win32/chromedriver.exe')
+        executable_path='C:/Users/chromedriver.exe')
     browser.get(link)
     input1 = browser.find_element_by_tag_name("input")
     input1.send_keys("Ivan")
